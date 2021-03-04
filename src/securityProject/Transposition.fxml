@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="251.0" prefWidth="410.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="securityProject.TranspositionController">
+  <children>
+    <Label layoutX="38.0" layoutY="70.0" text="Choose an option:" />
+    <Label layoutX="39.0" layoutY="117.0" text="Enter the text:" />
+    <TextField fx:id="tText" layoutX="125.0" layoutY="114.0" prefWidth="238.0" />
+    <Button fx:id="bExit" layoutX="157.0" layoutY="196.0" mnemonicParsing="false" onAction="#toExit" prefHeight="32.0" prefWidth="97.0" text="Exit" />
+    <Button id="bNext" fx:id="bBack" layoutX="52.0" layoutY="196.0" minWidth="32.0" mnemonicParsing="false" onAction="#toBack" prefHeight="32.0" prefWidth="36.999908447265625" text="&lt;">
+      <font>
+        <Font name="System Bold" size="15.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Label layoutX="41.0" layoutY="154.0" text="Enter the key:" />
+    <TextField fx:id="tKey" layoutX="127.0" layoutY="151.0" prefWidth="238.0" />
+    <Button fx:id="bNext" font="$x1" layoutX="323.0" layoutY="196.0" minWidth="32.0" mnemonicParsing="false" onAction="#toNext" prefHeight="32.0" prefWidth="36.999908447265625" text="&gt;" />
+    <Label layoutX="141.0" layoutY="21.0" text="Transposition">
+      <font>
+        <Font name="System Bold Italic" size="20.0" />
+      </font>
+    </Label>
+    <RadioButton fx:id="rEn" layoutX="161.0" layoutY="70.0" mnemonicParsing="false" text="Encryption" />
+    <RadioButton fx:id="rDe" layoutX="269.0" layoutY="70.0" mnemonicParsing="false" text="Decryption" />
+  </children>
+</AnchorPane>

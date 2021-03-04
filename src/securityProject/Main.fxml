@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="306.0" prefWidth="282.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="securityProject.MainController">
+  <children>
+    <Label layoutX="56.0" layoutY="39.0" text="Please Choose a method to test:" />
+    <Button fx:id="B1" layoutX="92.0" layoutY="95.0" mnemonicParsing="false" onAction="#onClickB1" prefWidth="100.0" text="RSA" />
+    <Button id="B1" fx:id="B2" layoutX="92.0" layoutY="143.0" mnemonicParsing="false" onAction="#onClickB2" prefWidth="100.0" text="Transposition" />
+    <Button id="B1" fx:id="B3" layoutX="92.0" layoutY="190.0" mnemonicParsing="false" onAction="#onClickB3" prefWidth="100.0" text="Affine" />
+    <Button fx:id="exit" layoutX="114.0" layoutY="253.0" mnemonicParsing="false" onAction="#onClickExit" prefWidth="56.0" text="Exit" />
+  </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="201.0" prefWidth="361.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="securityProject.TranspositionResult">
+  <children>
+    <Label layoutX="160.0" layoutY="22.0" text="Result">
+      <font>
+        <Font name="System Bold Italic" size="15.0" />
+      </font>
+    </Label>
+    <Label fx:id="idText" layoutX="150.0" layoutY="46.0" text="Cipher text:" underline="true" />
+    <Label fx:id="tResult" layoutX="51.0" layoutY="93.0" prefWidth="259.0" text="xxxxxxxxxxxxx" textAlignment="CENTER" underline="false" wrapText="false" />
+    <Button fx:id="bExit" layoutX="133.0" layoutY="146.0" mnemonicParsing="false" onAction="#toExit" prefHeight="32.0" prefWidth="97.0" text="Exit" />
+    <Button id="bNext" fx:id="bBack" layoutX="51.0" layoutY="146.0" minWidth="32.0" mnemonicParsing="false" onAction="#toBack" prefHeight="32.0" prefWidth="36.999908447265625" text="&lt;">
+      <font>
+        <Font name="System Bold" size="15.0" />
+      </font>
+    </Button>
+    <Button id="bExit" layoutX="268.0" layoutY="152.0" mnemonicParsing="false" onAction="#toCopy" prefHeight="20.0" prefWidth="61.0" text="Copy" />
+  </children>
+</AnchorPane>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="410.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="rsa.rsaController">
+  <children>
+    <Label layoutX="66.0" layoutY="66.0" text="Client 1">
+      <font>
+        <Font size="14.0" fx:id="x2" />
+      </font>
+    </Label>
+    <Label layoutX="39.0" layoutY="99.0" prefHeight="19.0" prefWidth="20.0" text="p:" />
+    <TextField id="tText" fx:id="tP1" layoutX="57.0" layoutY="99.0" prefWidth="70.0" />
+    <Button fx:id="bExit" layoutX="157.0" layoutY="389.0" mnemonicParsing="false" onAction="#toExit" prefHeight="32.0" prefWidth="97.0" text="Exit" />
+    <Button id="bNext" fx:id="bBack" layoutX="52.0" layoutY="389.0" minWidth="32.0" mnemonicParsing="false" onAction="#toBack" prefHeight="32.0" prefWidth="36.999908447265625" text="&lt;">
+      <font>
+        <Font name="System Bold" size="15.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Label layoutX="187.0" layoutY="21.0" text="RSA">
+      <font>
+        <Font name="System Bold Italic" size="20.0" />
+      </font>
+    </Label>
+    <RadioButton id="rEn" fx:id="rC1" layoutX="173.0" layoutY="122.0" mnemonicParsing="false" text="Client 1" />
+    <RadioButton id="rDe" fx:id="rC2" layoutX="173.0" layoutY="150.0" mnemonicParsing="false" text="Client 2" />
+    <Label layoutX="183.0" layoutY="98.0" text="SENDER">
+      <font>
+        <Font name="System Bold" size="12.0" />
+      </font>
+    </Label>
+    <Label layoutX="39.0" layoutY="135.0" prefHeight="19.0" prefWidth="20.000099999997474" text="q:" />
+    <TextField id="tText" fx:id="tQ1" layoutX="57.0" layoutY="135.0" prefWidth="70.0" />
+    <Label layoutX="39.0" layoutY="168.0" prefHeight="19.0" prefWidth="20.0" text="e:" />
+    <TextField id="tText" fx:id="tE1" layoutX="57.0" layoutY="168.0" prefWidth="70.0" />
+    <Label font="$x2" layoutX="300.0" layoutY="62.0" text="Client 2" />
+    <Label layoutX="283.0" layoutY="99.0" prefHeight="19.0" prefWidth="20.0" text="p:" />
+    <TextField id="tText" fx:id="tP2" layoutX="301.0" layoutY="99.0" prefWidth="70.0" />
+    <Label layoutX="283.0" layoutY="135.0" prefHeight="19.0" prefWidth="20.000099999997474" text="q:" />
+    <TextField id="tText" fx:id="tQ2" layoutX="301.0" layoutY="135.0" prefWidth="70.0" />
+    <Label layoutX="283.0" layoutY="168.0" prefHeight="19.0" prefWidth="20.0" text="e:" />
+    <TextField id="tText" fx:id="tE2" layoutX="301.0" layoutY="168.0" prefWidth="70.0" />
+    <Label layoutX="54.0" layoutY="225.0" text="MSG:" />
+    <Label fx:id="lblR" layoutX="60.0" layoutY="341.0" prefWidth="241.0" text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" />
+    <TextField id="tText" fx:id="msg" layoutX="89.0" layoutY="222.0" prefWidth="274.0" />
+    <Label layoutX="54.0" layoutY="257.0" text="Choose an option:" />
+    <RadioButton fx:id="rEn" layoutX="177.0" layoutY="257.0" mnemonicParsing="false" text="Encryption" />
+    <RadioButton fx:id="rDe" layoutX="285.0" layoutY="257.0" mnemonicParsing="false" text="Decryption" />
+    <Button id="bExit" fx:id="bRun" layoutX="173.0" layoutY="292.0" mnemonicParsing="false" onAction="#toRun" prefHeight="22.0" prefWidth="60.0" text="Run" />
+    <Button id="bExit" layoutX="311.0" layoutY="338.0" mnemonicParsing="false" onAction="#toCopy" prefHeight="22.0" prefWidth="60.0" text="Copy" />
+    <Button id="bExit" layoutX="306.0" layoutY="372.0" mnemonicParsing="false" onAction="#toRandom" prefHeight="22.0" prefWidth="70.0" text="Random" />
+  </children>
+</AnchorPane>
