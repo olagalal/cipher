@@ -2,7 +2,7 @@
 
 [![Shields.io](https://img.shields.io/badge/type-college%20project-orange?style=flat)](http://shields.io/)
 
-This project contains a java implementation of RAS, Affine and Transposition encryption techniques. It was made for **(Security - Forth Year)** in my college. You can encrypt and decrypt messages using this Desktop app simply by enter your message and the key of your choice using this techniques.
+This project contains a java implementation of RSA, Affine and Transposition encryption techniques. It was made for **(Security - Forth Year)** in my college. You can encrypt and decrypt messages using this Desktop app simply by enter your message and the key of your choice using this techniques.
 
 ## Screenshots
 
